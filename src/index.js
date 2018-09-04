@@ -25,7 +25,9 @@ Order.PropTypes = {
   cone: PropTypes.bool,
   size: PropTypes.String,
   scoops: PropTypes.arrayOf(PropTypes.string).isRequired,
-  orderInfo: PropTypes.object.isRequired
+  orderInfo: PropTypes.shape({
+    
+  })
   
   
 }
