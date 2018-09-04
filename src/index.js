@@ -26,6 +26,7 @@ Order.PropTypes = {
   size: PropTypes.String,
   scoops: PropTypes.arrayOf(PropTypes.string).isRequired,
   orderInfo: PropTypes.shape({
+    customerName:PropTypes.string.isRequired,
     
   })
   
